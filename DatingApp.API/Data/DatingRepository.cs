@@ -41,7 +41,8 @@ namespace DatingApp.API.Data
 
         public async Task<bool> SaveAll()
         {
-            return await _context.SaveChangesAsync() > 0;  // if some data is saved return true else return false
+            return await _context.SaveChangesAsync() > 0;  // if some data is saved return true 
+                                                           // else return false
         }
     }
 }
